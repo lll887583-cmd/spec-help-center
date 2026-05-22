@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Article - Spec Help Center Demo</title>
+    <link rel="stylesheet" href="./css/pages.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <script src="./js/data.js" defer></script>
+    <script src="./js/i18n.js" defer></script>
+    <script src="./js/components.js" defer></script>
+    <script src="./js/main.js" defer></script>
+    <script src="./js/article.js" defer></script>
+  </head>
+  <body data-page="article">
+    <div data-site-header></div>
+
+    <main class="page-shell page-shell--article">
+      <div class="help-container article-layout">
+        <article class="article-content">
+          <div data-breadcrumb></div>
+          <header class="article-header" data-article-header></header>
+
+          <section class="article-body" data-article-body></section>
+
+          <div data-helpful-feedback></div>
+
+          <section class="related-section">
+            <div class="section-header">
+              <span class="section-eyebrow" data-related-label>Related</span>
+              <h2 class="section-title" data-keep-reading>Keep reading</h2>
+            </div>
+            <div class="article-list" data-related-articles></div>
+          </section>
+        </article>
+
+        <aside class="article-toc" aria-label="Article contents">
+          <strong>On this page</strong>
+          <a class="is-active" href="#article-section-1">Section 1</a>
+          <a href="#article-section-2">Section 2</a>
+          <a href="#article-section-3">Section 3</a>
+        </aside>
+      </div>
+    </main>
+
+    <div data-site-footer></div>
+  </body>
+</html>

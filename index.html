@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Spec Help Center Demo</title>
+    <link rel="stylesheet" href="./css/pages.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <script src="./js/data.js" defer></script>
+    <script src="./js/i18n.js" defer></script>
+    <script src="./js/components.js" defer></script>
+    <script src="./js/main.js" defer></script>
+  </head>
+  <body data-page="home">
+    <div data-site-header></div>
+
+    <main>
+      <section class="help-hero">
+        <div class="help-container help-hero__inner">
+          <div class="help-hero__copy">
+            <p class="section-eyebrow" data-home-eyebrow>Spec Markets Help Center</p>
+            <h1 class="help-hero__title" data-home-title>Answers for every step of your trading journey.</h1>
+            <p class="help-hero__desc" data-home-desc>Search account setup, funding, platform, security, and trading questions with a support flow inspired by mature help centers.</p>
+          </div>
+          <div class="help-hero__panel">
+            <div data-home-search></div>
+            <div class="quick-link-row" aria-label="Popular searches">
+              <a href="./search.html?q=verification">Verification</a>
+              <a href="./search.html?q=deposit">Deposit time</a>
+              <a href="./search.html?q=password">Password reset</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="help-section">
+        <div class="help-container">
+          <div class="section-header section-header--split">
+            <div>
+              <span class="section-eyebrow" data-browse-topics>Browse topics</span>
+              <h2 class="section-title" data-popular-categories>Popular categories</h2>
+            </div>
+            <p class="section-desc" data-popular-categories-desc>Reusable category cards define the information architecture that frontend can map to React routes later.</p>
+          </div>
+          <div class="category-grid" data-category-grid></div>
+        </div>
+      </section>
+
+      <section class="help-section help-section--tinted">
+        <div class="help-container">
+          <div class="section-header section-header--split">
+            <div>
+              <span class="section-eyebrow" data-most-viewed>Most viewed</span>
+              <h2 class="section-title" data-popular-articles-title>Popular articles</h2>
+            </div>
+            <p class="section-desc" data-popular-articles-desc>Article cards are shared by home, category, search, and related article sections.</p>
+          </div>
+          <div class="article-list article-list--grid" data-popular-articles></div>
+        </div>
+      </section>
+
+      <section class="help-section">
+        <div class="help-container" data-contact-card></div>
+      </section>
+    </main>
+
+    <div data-site-footer></div>
+  </body>
+</html>
