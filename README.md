@@ -4,6 +4,10 @@ Spec Markets help center HTML demo and handoff workspace.
 
 This repo starts as a UI/UX demo, but it should be organized like a small component system so the frontend team can translate it into the existing Next.js / React / SCSS Modules codebase later.
 
+## Online Preview
+
+- GitHub Pages: [https://lll887583-cmd.github.io/spec-help-center/](https://lll887583-cmd.github.io/spec-help-center/)
+
 ## Goal
 
 Build a help center demo based on the existing Spec Markets website UI language:
