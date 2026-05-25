@@ -6,7 +6,7 @@ This repo starts as a UI/UX demo, but it should be organized like a small compon
 
 ## Online Preview
 
-- GitHub Pages: [https://lll887583-cmd.github.io/spec-help-center/](https://lll887583-cmd.github.io/spec-help-center/)
+- GitHub Pages: [https://lll887583-cmd.github.io/spec-help-center/index.html](https://lll887583-cmd.github.io/spec-help-center/index.html)
 
 ## Goal
 
