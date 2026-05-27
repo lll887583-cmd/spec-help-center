@@ -1,0 +1,9 @@
+{
+  "name": "spec-help-center",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "TSX_TSCONFIG_PATH=../specmarkets/tsconfig.json ../specmarkets/node_modules/.bin/tsx scripts/build.ts",
+    "clean": "find . -mindepth 1 -maxdepth 1 ! -name '.git' ! -name 'package.json' ! -name 'README.md' ! -name 'scripts' ! -name 'src' -exec rm -rf {} +"
+  }
+}
